@@ -1,0 +1,10 @@
+The magic 8 ball
+
+Relatively straightforward project, the end goal is to have an 8 ball that you can type in a yes or no question and then recieve a response. 
+My thought processs is to have a place where the user will be able to type in a yes/no question. then instead of a submit button they click a shake button which then will shake the 8 ball and then return an answer to the question. Implement a saving feature. Potentially adding a delete feature for if they accidentaly saved something they did not want
+
+There will just be 1 home page. 
+Will use a get request to be able to have responses, post request to be able to save, and a delete request to delete the save request. 
+
+
+im going to style it so itll look like and 8 ball and im going to try and make the answer appear in the 8 ball but if that wont work ill just do an alert for it.

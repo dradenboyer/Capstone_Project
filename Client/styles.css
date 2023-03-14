@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #003f64;
+}
+
+h1{
+    color: #4666FF;
+    
+}
+
+
+h1 span {
+    transition: 0.5s;
+}
+
+h1:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff,
+                 0 0 160px #fff;
+
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+img{
+    background-color: transparent;
+    width: 450px;
+    height: 450px;
+}
+
+#text{
+    position: absolute;
+    top: 45%;
+    right: 40%;
+}
+
+#p1{
+    color: black;
+}
+
+p{
+    font-weight: bolder;
+    color: darkorange;
+
+}
+
+
+#resContainer {
+position: absolute;
+bottom: 0;
+top: 0;
+left: 85%;
+width: 200px;
+white-space: nowrap;
+
+
+}
+
+#ballRes{
+    border-radius: 25px;
+    background-color: white;
+}
+
+#submit{
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-color: gold;
+}
+
+img:hover{
+    animation: animate 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg) translateX(0px);
+    }    
+    25%{
+        transform: rotate(-20deg) translateX(-20px);
+    }    
+    50%{
+        transform: rotate(0deg) translateX(0px);
+    }    
+    75%{
+        transform: rotate(20deg) translateX(20px);
+    }
+    100%{
+        transform: rotate(0deg) translateX(0px);
+    }
+}
